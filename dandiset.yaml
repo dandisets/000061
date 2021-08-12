@@ -2,12 +2,13 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000061
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.4.4/context.json
-about: []
+about:
+- identifier: UBERON:0001876
+  name: amygdala
 access:
 - contactPoint:
     email: petersen.peter@gmail.com
     schemaKey: ContactPoint
-  schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
   approach:
