@@ -40,8 +40,8 @@ assetsSummary:
   - ElectricalSeries
   - ProcessingModule
 citation: Girardeau, Gabrielle; Inema, Ingrid; Buzsáki, György (2021) Reactivations
-  of emotional memory in the hippocampus–amygdala system during sleep (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000061/draft
+  of emotional memory in the hippocampus–amygdala system during sleep (Version 0.210812.1517)
+  [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000061/0.210812.1517
 contributor:
 - affiliation: []
   includeInCitation: true
@@ -63,6 +63,7 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
+datePublished: '2021-08-12T15:16:39.157018'
 description: The consolidation of context-dependent emotional memory requires communication
   between the hippocampus and the basolateral amygdala (BLA), but the mechanisms of
   this process are unknown. We recorded neuronal ensembles in the hippocampus and
@@ -75,22 +76,35 @@ description: The consolidation of context-dependent emotional memory requires co
   the run direction that involved the air puff than for the 'safe' direction. These
   findings suggest that consolidation of contextual emotional memory occurs during
   ripple-reactivation of hippocampus–amygdala circuits.
+doi: 10.48324/dandi.000061/0.210812.1517
 ethicsApproval: []
-id: DANDI:000061/draft
+id: DANDI:000061/0.210812.1517
 identifier: DANDI:000061
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000061/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000061/0.210812.1517/assets.yaml
 name: Reactivations of emotional memory in the hippocampus–amygdala system during
   sleep
 protocol: []
+publishedBy:
+  endDate: '2021-08-12T15:16:39.157018'
+  id: urn:uuid:05d4fbc4-dad6-47a4-acd0-272b9faec64f
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2021-08-12T15:16:39.157018'
+  wasAssociatedWith:
+  - id: urn:uuid:84821fea-f2ee-44a8-a4e6-403558e3e874
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.4.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000061/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000061/0.210812.1517
+version: 0.210812.1517
 wasGeneratedBy: []
