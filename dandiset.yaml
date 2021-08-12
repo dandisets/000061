@@ -5,8 +5,9 @@
 about: []
 access:
 - contactPoint:
-    email: https://dandiarchive.org/dandiset/000055/draft
+    email: petersen.peter@gmail.com
     schemaKey: ContactPoint
+  schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
   approach:
@@ -47,6 +48,7 @@ contributor:
   name: Girardeau, Gabrielle
   roleName:
   - dcite:Author
+  - dcite:ContactPerson
   schemaKey: Person
 - affiliation: []
   includeInCitation: true
@@ -77,7 +79,8 @@ ethicsApproval: []
 id: DANDI:000061/draft
 identifier: DANDI:000061
 keywords: []
-license: []
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000061/versions/draft/assets/
 name: Reactivations of emotional memory in the hippocampus–amygdala system during
