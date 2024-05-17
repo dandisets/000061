@@ -42,7 +42,7 @@ assetsSummary:
   - LFP
   - ElectricalSeries
   - ProcessingModule
-citation: Girardeau, Gabrielle; Inema, Ingrid; Buzsáki, György (2022) Reactivations
+citation: Girardeau, Gabrielle; Inema, Ingrid; Buzsáki, György (2024) Reactivations
   of emotional memory in the hippocampus–amygdala system during sleep (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000061/draft
 contributor:
@@ -95,9 +95,11 @@ relatedResource:
   name: Reactivations of emotional memory in the hippocampus–amygdala system during
     sleep
   relation: dcite:IsDescribedBy
+  repository: Nature Neuroscience
+  resourceType: dcite:JournalArticle
   schemaKey: Resource
   url: https://doi.org/10.1038/nn.4637
-repository: https://dandiarchive.org/
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
