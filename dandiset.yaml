@@ -40,11 +40,19 @@ assetsSummary:
   - LFP
   - ElectricalSeries
   - ProcessingModule
-citation: Girardeau, Gabrielle; Inema, Ingrid; Buzsáki, György (2024) Reactivations
+citation: Girardeau, Gabrielle; Inema, Ingrid; Buzsáki, György (2025) Reactivations
   of emotional memory in the hippocampus–amygdala system during sleep (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000061/draft
+  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000061/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/005dvqh91
+    name: New York University Langone Medical Center
+    schemaKey: Affiliation
+  - identifier: https://ror.org/0190ak572
+    name: New York University
+    schemaKey: Affiliation
+  email: gabrielle.girardeau@inserm.fr
+  identifier: 0000-0002-5265-9697
   includeInCitation: true
   name: Girardeau, Gabrielle
   roleName:
@@ -57,14 +65,26 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/005dvqh91
+    name: New York University Langone Medical Center
+    schemaKey: Affiliation
+  - identifier: https://ror.org/0190ak572
+    name: New York University
+    schemaKey: Affiliation
   identifier: 0000-0002-3100-4800
   includeInCitation: true
   name: Buzsáki, György
   roleName:
   - dcite:Author
   schemaKey: Person
+- identifier: 0000-0002-0829-4790
+  name: Baker, Cody
+  roleName:
+  - dcite:DataCurator
+  schemaKey: Person
 dateCreated: '2021-03-17T17:56:38.739000+00:00'
+datePublished: '2025-06-24T04:26:50.942773+00:00'
 description: The consolidation of context-dependent emotional memory requires communication
   between the hippocampus and the basolateral amygdala (BLA), but the mechanisms of
   this process are unknown. We recorded neuronal ensembles in the hippocampus and
@@ -80,14 +100,24 @@ description: The consolidation of context-dependent emotional memory requires co
 ethicsApproval: []
 id: DANDI:000061/draft
 identifier: DANDI:000061
-keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000061/versions/draft/assets/
 name: Reactivations of emotional memory in the hippocampus–amygdala system during
   sleep
-protocol: []
+publishedBy:
+  endDate: '2025-06-24T04:26:50.942773+00:00'
+  id: urn:uuid:7fb002f3-9097-409e-b939-c14a6c1a2568
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-06-24T04:26:50.942773+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:d2ad54dc-f3db-4e34-bfc4-7728700b6587
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1038/nn.4637
   name: Reactivations of emotional memory in the hippocampus–amygdala system during
@@ -100,7 +130,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.4.4
-studyTarget: []
 url: https://dandiarchive.org/dandiset/000061/draft
 version: draft
 wasGeneratedBy: []
