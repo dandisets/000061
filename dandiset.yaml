@@ -90,7 +90,12 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- identifier: 0000-0002-0829-4790
+- affiliation:
+  - identifier: https://ror.org/01d74sk53
+    name: CatalystNeuro
+    schemaKey: Affiliation
+  identifier: 0000-0002-0829-4790
+  includeInCitation: false
   name: Baker, Cody
   roleName:
   - dcite:DataCurator
