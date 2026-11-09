@@ -5056,15 +5056,15 @@
 },
 {
 "asset_id":
-"c8d45c54-64bd-4acd-ad8f-335c74a81b64",
+"fd9c6c63-d19c-4947-93f5-da7e5ba6208c",
 "blob":
-"0c7569b3-9b47-4e44-adb1-d7964d7300a8",
+"9ee0c49c-a0f4-4b3a-b2ad-3511cc1457c1",
 "created":
-"2021-07-03T04:23:02.663062Z",
+"2026-11-09T00:21:45.033514Z",
 "metadata":
 {
 "@context":
-"https://raw.githubusercontent.com/dandi/schema/master/releases/0.4.4/context.json",
+"https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json",
 "access":
 [
 {
@@ -5078,37 +5078,51 @@
 [
 {
 "name":
+"behavioral approach",
+"schemaKey":
+"ApproachType"
+},
+{
+"name":
 "electrophysiological approach",
 "schemaKey":
 "ApproachType"
 }
 ],
 "blobDateModified":
-"2021-04-06T17:49:06.896007-04:00",
+"2026-11-09T00:13:39.669362Z",
 "contentSize":
-44605832742,
+54138825036,
 "contentUrl":
 [
-"https://api.dandiarchive.org/api/assets/c8d45c54-64bd-4acd-ad8f-335c74a81b64/download/",
-"https://dandiarchive.s3.amazonaws.com/blobs/0c7/569/0c7569b3-9b47-4e44-adb1-d7964d7300a8"
+"https://api.dandiarchive.org/api/assets/fd9c6c63-d19c-4947-93f5-da7e5ba6208c/download/",
+"https://dandiarchive.s3.amazonaws.com/blobs/9ee/0c4/9ee0c49c-a0f4-4b3a-b2ad-3511cc1457c1"
 ],
 "dateModified":
-"2021-07-03T00:23:02.565977-04:00",
-"datePublished":
-"2021-08-12T15:16:40.987058",
+"2026-11-09T00:18:44.309329Z",
 "digest":
 {
 "dandi:dandi-etag":
-"2b2c5344524ff4864b132e04dde0ad93-665",
+"a47ce0abc91af517b2f124c929c3c78f-807",
 "dandi:sha2-256":
-"6134027fd599139030e670e266e7cf39d43f2a532a0628a98bcf5a35675f4ef6"
+"8d0b5b4920f7c04cc83b6afe1b3696e7a745fcf12123292cf5a61ea49eb07cdf"
 },
 "encodingFormat":
 "application/x-nwb",
 "id":
-"dandiasset:c8d45c54-64bd-4acd-ad8f-335c74a81b64",
+"dandiasset:fd9c6c63-d19c-4947-93f5-da7e5ba6208c",
 "identifier":
-"c8d45c54-64bd-4acd-ad8f-335c74a81b64",
+"fd9c6c63-d19c-4947-93f5-da7e5ba6208c",
+"keywords":
+[
+"hippocampus",
+"basolateral amygdala",
+"emotional memory",
+"reactivation",
+"sharp-wave ripples",
+"sleep",
+"silicon probe"
+],
 "measurementTechnique":
 [
 {
@@ -5119,54 +5133,89 @@
 },
 {
 "name":
+"behavioral technique",
+"schemaKey":
+"MeasurementTechniqueType"
+},
+{
+"name":
 "analytical technique",
+"schemaKey":
+"MeasurementTechniqueType"
+},
+{
+"name":
+"surgical technique",
+"schemaKey":
+"MeasurementTechniqueType"
+},
+{
+"name":
+"multi electrode extracellular electrophysiology recording technique",
+"schemaKey":
+"MeasurementTechniqueType"
+},
+{
+"name":
+"spike sorting technique",
 "schemaKey":
 "MeasurementTechniqueType"
 }
 ],
 "path":
 "sub-Rat09/sub-Rat09_ses-Rat09-20140407_ecephys+image.nwb",
-"publishedBy":
-{
-"endDate":
-"2021-08-12T15:16:40.987058",
-"id":
-"urn:uuid:248f4fd9-43b6-45ab-8555-196d9afce498",
-"name":
-"DANDI publish",
-"schemaKey":
-"PublishActivity",
-"startDate":
-"2021-08-12T15:16:40.987058",
-"wasAssociatedWith":
+"relatedResource":
 [
 {
-"id":
-"urn:uuid:8ef20c6c-804b-44f3-ab8f-7929d547eae2",
 "identifier":
-"RRID:SCR_017571",
-"name":
-"DANDI API",
+"https://doi.org/10.1038/nn.4637",
+"relation":
+"dcite:IsDescribedBy",
 "schemaKey":
-"Software",
-"version":
-"0.1.0"
+"Resource"
 }
-]
-},
-"repository":
-"https://dandiarchive.org/",
+],
 "schemaKey":
 "Asset",
 "schemaVersion":
-"0.4.4",
+"0.7.0",
 "variableMeasured":
 [
 {
 "schemaKey":
 "PropertyValue",
 "value":
+"SpatialSeries"
+},
+{
+"schemaKey":
+"PropertyValue",
+"value":
+"ElectricalSeries"
+},
+{
+"schemaKey":
+"PropertyValue",
+"value":
 "ProcessingModule"
+},
+{
+"schemaKey":
+"PropertyValue",
+"value":
+"ElectrodeGroup"
+},
+{
+"schemaKey":
+"PropertyValue",
+"value":
+"Position"
+},
+{
+"schemaKey":
+"PropertyValue",
+"value":
+"Units"
 },
 {
 "schemaKey":
@@ -5185,10 +5234,17 @@
 "unitText":
 "ISO-8601 duration",
 "value":
-"P3M"
+"/",
+"valueReference":
+{
+"schemaKey":
+"PropertyValue",
+"value":
+"dandi:BirthReference"
+}
 },
 "genotype":
-"Wild type",
+"wild type",
 "identifier":
 "Rat09",
 "schemaKey":
@@ -5207,9 +5263,16 @@
 "identifier":
 "http://purl.obolibrary.org/obo/NCBITaxon_10116",
 "name":
-"Brown rat",
+"Rattus norvegicus - Norway rat",
 "schemaKey":
 "SpeciesType"
+},
+"strain":
+{
+"name":
+"Long-Evans",
+"schemaKey":
+"StrainType"
 }
 }
 ],
@@ -5217,23 +5280,31 @@
 [
 {
 "description":
-"The consolidation of context-dependent emotional memory requires communication between the hippocampusand the basolateral amygdala (BLA), but the mechanisms of this process are unknown. We recorded neuronalensembles in the hippocampus and BLA while rats learned the location of an aversive air puff on a lineartrack, as well as during sleep before and after training. We found coordinated reactivations between thehippocampus and the BLA during non-REM sleep following training. These reactivations peaked duringhippocampal sharp wave-ripples (SPW-Rs) and involved a subgroup of BLA cells positively modulated duringhippocampal SPW-Rs. Notably, reactivation was stronger for the hippocampus-BLA correlation patternsrepresenting the run direction that involved the air puff than for the 'safe' direction. These findingssuggest that consolidation of contextual emotional memory occurs during ripple-reactivation ofhippocampus-amygdala circuits.",
+"One recording day: linear track running before training (prerun), home-cage sleep (presleep), training on the linear track with an air puff in one running direction (run), home-cage sleep (postsleep) and running after training (postrun), recorded as one concatenated session. The start time of the day is not in the source, so session_start_time is midnight of the recording date.",
+"endDate":
+"2014-04-07T03:52:10.624000-04:00",
 "identifier":
 "Rat09-20140407",
 "name":
 "Rat09-20140407",
 "schemaKey":
-"Session"
+"Session",
+"startDate":
+"2014-04-07T00:00:00-04:00"
 },
 {
 "description":
 "Metadata generated by DANDI cli",
+"endDate":
+"2026-11-09T00:18:44.309296Z",
 "id":
-"urn:uuid:619fe6cd-372e-4582-9aa4-eb1ecffc5367",
+"urn:uuid:cb937c67-d8e5-4034-821d-fc43913e4667",
 "name":
 "Metadata generation",
 "schemaKey":
 "Activity",
+"startDate":
+"2026-11-09T00:18:43.588164Z",
 "wasAssociatedWith":
 [
 {
@@ -5246,18 +5317,18 @@
 "url":
 "https://github.com/dandi/dandi-cli",
 "version":
-"0.22.0"
+"0.81.0"
 }
 ]
 }
 ]
 },
 "modified":
-"2021-08-05T18:52:48.237632Z",
+"2026-11-09T00:21:45.033528Z",
 "path":
 "sub-Rat09/sub-Rat09_ses-Rat09-20140407_ecephys+image.nwb",
 "size":
-44605832742
+54138825036
 },
 {
 "asset_id":
@@ -5813,15 +5884,15 @@
 },
 {
 "asset_id":
-"980fa56f-3bd1-4c48-90c2-18c75a8f288d",
+"76ed057d-ae79-4551-a6fb-cce3e3c5220b",
 "blob":
-"8559e106-ac81-4e26-a93e-c2d9c0b3bc98",
+"eaa9c0a0-8aa6-43e3-8b99-6c7cf6401077",
 "created":
-"2021-07-03T04:23:02.033621Z",
+"2026-11-09T00:22:39.424688Z",
 "metadata":
 {
 "@context":
-"https://raw.githubusercontent.com/dandi/schema/master/releases/0.4.4/context.json",
+"https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json",
 "access":
 [
 {
@@ -5835,42 +5906,74 @@
 [
 {
 "name":
+"behavioral approach",
+"schemaKey":
+"ApproachType"
+},
+{
+"name":
 "electrophysiological approach",
 "schemaKey":
 "ApproachType"
 }
 ],
 "blobDateModified":
-"2021-04-06T18:03:44.786941-04:00",
+"2026-11-09T00:21:44.190858Z",
 "contentSize":
-30928554511,
+8119145362,
 "contentUrl":
 [
-"https://api.dandiarchive.org/api/assets/980fa56f-3bd1-4c48-90c2-18c75a8f288d/download/",
-"https://dandiarchive.s3.amazonaws.com/blobs/855/9e1/8559e106-ac81-4e26-a93e-c2d9c0b3bc98"
+"https://api.dandiarchive.org/api/assets/76ed057d-ae79-4551-a6fb-cce3e3c5220b/download/",
+"https://dandiarchive.s3.amazonaws.com/blobs/eaa/9c0/eaa9c0a0-8aa6-43e3-8b99-6c7cf6401077"
 ],
 "dateModified":
-"2021-07-03T00:23:01.933448-04:00",
-"datePublished":
-"2021-08-12T15:16:40.986979",
+"2026-11-09T00:22:21.056232Z",
 "digest":
 {
 "dandi:dandi-etag":
-"707e4939468dbeb13ac7ae199fe31657-461",
+"345145ae704d9ec2f48781c78228745b-121",
 "dandi:sha2-256":
-"cbbe4673f6f624a38c0fb7334cce3c239391c95405eb343e583756d6fe263acb"
+"aa541318e2b56804fad44b57267e3c2a424507631d72dee95d702948ad171094"
 },
 "encodingFormat":
 "application/x-nwb",
 "id":
-"dandiasset:980fa56f-3bd1-4c48-90c2-18c75a8f288d",
+"dandiasset:76ed057d-ae79-4551-a6fb-cce3e3c5220b",
 "identifier":
-"980fa56f-3bd1-4c48-90c2-18c75a8f288d",
+"76ed057d-ae79-4551-a6fb-cce3e3c5220b",
+"keywords":
+[
+"hippocampus",
+"basolateral amygdala",
+"emotional memory",
+"reactivation",
+"sharp-wave ripples",
+"sleep",
+"silicon probe"
+],
 "measurementTechnique":
 [
 {
 "name":
 "multi electrode extracellular electrophysiology recording technique",
+"schemaKey":
+"MeasurementTechniqueType"
+},
+{
+"name":
+"analytical technique",
+"schemaKey":
+"MeasurementTechniqueType"
+},
+{
+"name":
+"behavioral technique",
+"schemaKey":
+"MeasurementTechniqueType"
+},
+{
+"name":
+"surgical technique",
 "schemaKey":
 "MeasurementTechniqueType"
 },
@@ -5889,47 +5992,40 @@
 ],
 "path":
 "sub-Rat10/sub-Rat10_ses-Rat10-20140701_ecephys+image.nwb",
-"publishedBy":
-{
-"endDate":
-"2021-08-12T15:16:40.986979",
-"id":
-"urn:uuid:2900845f-18c4-485e-8473-4c7b45ecc143",
-"name":
-"DANDI publish",
-"schemaKey":
-"PublishActivity",
-"startDate":
-"2021-08-12T15:16:40.986979",
-"wasAssociatedWith":
+"relatedResource":
 [
 {
-"id":
-"urn:uuid:eece192c-a59b-420a-8e7f-2c47b55d12e6",
 "identifier":
-"RRID:SCR_017571",
-"name":
-"DANDI API",
+"https://doi.org/10.1038/nn.4637",
+"relation":
+"dcite:IsDescribedBy",
 "schemaKey":
-"Software",
-"version":
-"0.1.0"
+"Resource"
 }
-]
-},
-"repository":
-"https://dandiarchive.org/",
+],
 "schemaKey":
 "Asset",
 "schemaVersion":
-"0.4.4",
+"0.7.0",
 "variableMeasured":
 [
 {
 "schemaKey":
 "PropertyValue",
 "value":
-"Units"
+"LFP"
+},
+{
+"schemaKey":
+"PropertyValue",
+"value":
+"ProcessingModule"
+},
+{
+"schemaKey":
+"PropertyValue",
+"value":
+"SpatialSeries"
 },
 {
 "schemaKey":
@@ -5941,7 +6037,19 @@
 "schemaKey":
 "PropertyValue",
 "value":
-"LFP"
+"ElectrodeGroup"
+},
+{
+"schemaKey":
+"PropertyValue",
+"value":
+"Position"
+},
+{
+"schemaKey":
+"PropertyValue",
+"value":
+"Units"
 }
 ],
 "wasAttributedTo":
@@ -5954,10 +6062,17 @@
 "unitText":
 "ISO-8601 duration",
 "value":
-"P3M"
+"/",
+"valueReference":
+{
+"schemaKey":
+"PropertyValue",
+"value":
+"dandi:BirthReference"
+}
 },
 "genotype":
-"Wild type",
+"wild type",
 "identifier":
 "Rat10",
 "schemaKey":
@@ -5976,9 +6091,16 @@
 "identifier":
 "http://purl.obolibrary.org/obo/NCBITaxon_10116",
 "name":
-"Brown rat",
+"Rattus norvegicus - Norway rat",
 "schemaKey":
 "SpeciesType"
+},
+"strain":
+{
+"name":
+"Long-Evans",
+"schemaKey":
+"StrainType"
 }
 }
 ],
@@ -5986,23 +6108,31 @@
 [
 {
 "description":
-"The consolidation of context-dependent emotional memory requires communication between the hippocampusand the basolateral amygdala (BLA), but the mechanisms of this process are unknown. We recorded neuronalensembles in the hippocampus and BLA while rats learned the location of an aversive air puff on a lineartrack, as well as during sleep before and after training. We found coordinated reactivations between thehippocampus and the BLA during non-REM sleep following training. These reactivations peaked duringhippocampal sharp wave-ripples (SPW-Rs) and involved a subgroup of BLA cells positively modulated duringhippocampal SPW-Rs. Notably, reactivation was stronger for the hippocampus-BLA correlation patternsrepresenting the run direction that involved the air puff than for the 'safe' direction. These findingssuggest that consolidation of contextual emotional memory occurs during ripple-reactivation ofhippocampus-amygdala circuits.",
+"One recording day: linear track running before training (prerun), home-cage sleep (presleep), training on the linear track with an air puff in one running direction (run), home-cage sleep (postsleep) and running after training (postrun), recorded as one concatenated session. The start time of the day is not in the source, so session_start_time is midnight of the recording date.",
+"endDate":
+"2014-07-01T07:16:36.352000-04:00",
 "identifier":
 "Rat10-20140701",
 "name":
 "Rat10-20140701",
 "schemaKey":
-"Session"
+"Session",
+"startDate":
+"2014-07-01T00:00:00-04:00"
 },
 {
 "description":
 "Metadata generated by DANDI cli",
+"endDate":
+"2026-11-09T00:22:21.056180Z",
 "id":
-"urn:uuid:c2ac0e84-54d2-4b46-a11c-bfc0c46b997f",
+"urn:uuid:1e24ec55-398f-4672-ad9b-24d353e18a51",
 "name":
 "Metadata generation",
 "schemaKey":
 "Activity",
+"startDate":
+"2026-11-09T00:22:20.179468Z",
 "wasAssociatedWith":
 [
 {
@@ -6015,18 +6145,18 @@
 "url":
 "https://github.com/dandi/dandi-cli",
 "version":
-"0.22.0"
+"0.81.0"
 }
 ]
 }
 ]
 },
 "modified":
-"2021-08-05T18:52:48.107979Z",
+"2026-11-09T00:22:39.424702Z",
 "path":
 "sub-Rat10/sub-Rat10_ses-Rat10-20140701_ecephys+image.nwb",
 "size":
-30928554511
+8119145362
 },
 {
 "asset_id":
