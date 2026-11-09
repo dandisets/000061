@@ -42,7 +42,7 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 1707031869155
+  numberOfBytes: 1707035666677
   numberOfFiles: 39
   numberOfSubjects: 4
   schemaKey: AssetsSummary
@@ -58,8 +58,8 @@ assetsSummary:
   - ElectricalSeries
   - LFP
   - ProcessingModule
-  - ElectrodeGroup
   - SpatialSeries
+  - ElectrodeGroup
   - Position
 citation: Girardeau, Gabrielle; Inema, Ingrid; Buzsáki, György (2026) Reactivations
   of emotional memory in the hippocampus–amygdala system during sleep (Version draft)
